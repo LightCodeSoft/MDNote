@@ -49,7 +49,7 @@ function onKey(data) {
 
 function init() {
     initGUI();
-    Native.openDevTools();//for debug
+    // Native.openDevTools();//for debug
     Native.hookKeyboad(onKey);
     Native.setOnClickCloseIconListener(function () {
         // Popup.confirm("是否确定退出？", function () { Native.exitApp() });
