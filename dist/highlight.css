@@ -1,0 +1,227 @@
+
+
+pre {
+    border-radius: 5px;
+    /* box-shadow: rgba(0, 0, 0, 0.55) 0px 2px 10px; */
+    text-align: left;
+    margin: 10px 0px;
+    padding: 0px;
+    max-width: 800px;
+
+}
+
+
+pre code.hljs {
+    padding-top: 15px;
+    border-radius: 5px;
+    font-family: Consolas, Monaco, Menlo, monospace;
+    font-size: 12px;
+    border:none;
+    margin:0;
+}
+/* pre:before {
+    content: '';
+    display: block;
+    background: url(data:image/svg+xml;base64,CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiICB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjQ1MHB4IiBoZWlnaHQ9IjEzMHB4Ij4KICA8ZWxsaXBzZSBjeD0iNjUiIGN5PSI2NSIgcng9IjUwIiByeT0iNTIiIHN0cm9rZT0icmdiKDIyMCw2MCw1NCkiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0icmdiKDIzNywxMDgsOTYpIi8+CiAgPGVsbGlwc2UgY3g9IjIyNSIgY3k9IjY1IiByeD0iNTAiIHJ5PSI1MiIgIHN0cm9rZT0icmdiKDIxOCwxNTEsMzMpIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9InJnYigyNDcsMTkzLDgxKSIvPgogIDxlbGxpcHNlIGN4PSIzODUiIGN5PSI2NSIgcng9IjUwIiByeT0iNTIiICBzdHJva2U9InJnYigyNywxNjEsMzcpIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9InJnYigxMDAsMjAwLDg2KSIvPgo8L3N2Zz4=);
+    height: 30px;
+    width: 100%;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-color: #282c34;
+    margin-bottom: -7px;
+    border-radius: 5px;
+    background-position: 10px 10px;
+} */
+
+/*********************dark************************/
+pre.darkcode code.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 1em
+}
+
+.darkcode code.hljs {
+    padding: 3px 5px
+}
+
+.darkcode  .hljs {
+    color: #abb2bf;
+    background: #282c34
+}
+
+.darkcode  .hljs-comment,
+.darkcode  .hljs-quote {
+    color: #5c6370;
+    font-style: italic
+}
+
+.darkcode .hljs-doctag,
+.darkcode .hljs-formula,
+.darkcode .hljs-keyword {
+    color: #c678dd
+}
+
+.darkcode .hljs-deletion,
+.darkcode .hljs-name,
+.darkcode .hljs-section,
+.darkcode .hljs-selector-tag,
+.darkcode .hljs-subst {
+    color: #e06c75
+}
+
+.darkcode .hljs-literal {
+    color: #56b6c2
+}
+
+.darkcode .hljs-addition,
+.darkcode .hljs-attribute,
+.darkcode .hljs-meta .hljs-string,
+.darkcode .hljs-regexp,
+.darkcode .hljs-string {
+    color: #98c379
+}
+
+.darkcode .hljs-attr,
+.darkcode .hljs-number,
+.darkcode .hljs-selector-attr,
+.darkcode .hljs-selector-class,
+.darkcode .hljs-selector-pseudo,
+.darkcode .hljs-template-variable,
+.darkcode .hljs-type,
+.darkcode .hljs-variable {
+    color: #d19a66
+}
+
+.darkcode .hljs-bullet,
+.darkcode .hljs-link,
+.darkcode .hljs-meta,
+.darkcode .hljs-selector-id,
+.darkcode .hljs-symbol,
+.darkcode .hljs-title {
+    color: #61aeee
+}
+
+.darkcode .hljs-built_in,
+.darkcode .hljs-class .hljs-title,
+.darkcode .hljs-title.class_ {
+    color: #e6c07b
+}
+
+.darkcode .hljs-emphasis {
+    font-style: italic
+}
+
+.darkcode .hljs-strong {
+    font-weight: 700
+}
+
+.darkcode .hljs-link {
+    text-decoration: underline
+}
+
+/*********************light************************/
+pre.lightcode code.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 1em;
+    background-color: #f3f4f5;
+    border: 1px solid rgb(204,204,204);
+}
+
+.lightcode code.hljs {
+    padding: 3px 5px
+}
+
+.lightcode .hljs {
+    background: #fff;
+    color: #000
+}
+
+.lightcode .xml .hljs-meta {
+    color: silver
+}
+
+.lightcode .hljs-comment,
+.hljs-quote {
+    color: #007400
+}
+
+.lightcode .hljs-attribute,
+.lightcode .hljs-keyword,
+.lightcode .hljs-literal,
+.lightcode .hljs-name,
+.lightcode .hljs-selector-tag,
+.lightcode .hljs-tag {
+    color: #aa0d91
+}
+
+.lightcode .hljs-template-variable,
+.lightcode .hljs-variable {
+    color: #3f6e74
+}
+
+.lightcode .hljs-code,
+.lightcode .hljs-meta .hljs-string,
+.lightcode .hljs-string {
+    color: #c41a16
+}
+
+.lightcode .hljs-link,
+.lightcode .hljs-regexp {
+    color: #0e0eff
+}
+
+.lightcode .hljs-bullet,
+.lightcode .hljs-number,
+.lightcode .hljs-symbol,
+.lightcode .hljs-title {
+    color: #1c00cf
+}
+
+.lightcode .hljs-meta,
+.lightcode .hljs-section {
+    color: #643820
+}
+
+.lightcode .hljs-built_in,
+.lightcode .hljs-class .hljs-title,
+.lightcode .hljs-params,
+.lightcode .hljs-title.class_,
+.lightcode .hljs-type {
+    color: #5c2699
+}
+
+.lightcode .hljs-attr {
+    color: #836c28
+}
+
+.lightcode .hljs-subst {
+    color: #000
+}
+
+.lightcode .hljs-formula {
+    background-color: #eee;
+    font-style: italic
+}
+
+.lightcode .hljs-addition {
+    background-color: #baeeba
+}
+
+.lightcode .hljs-deletion {
+    background-color: #ffc8bd
+}
+
+.lightcode .hljs-selector-class,
+.lightcode .hljs-selector-id {
+    color: #9b703f
+}
+
+.lightcode .hljs-doctag,
+.lightcode .hljs-strong {
+    font-weight: 700
+}
+
+.lightcode .hljs-emphasis {
+    font-style: italic
+}

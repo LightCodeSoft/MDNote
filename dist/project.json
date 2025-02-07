@@ -1,0 +1,20 @@
+
+{
+	"entry": "index.html",
+	"width": 1024,
+	"height" : 600,
+	"bgColor" : "#F0F0F0",
+	"appNameCN" : "Markdown笔记",
+	"appNameEN" : "MarkdownNote",
+	"borderless" : false,
+	"borderWidth" : 1,
+	"borderColor" : "#FFFFFF",
+	"ico" : "favicon.ico",
+    "key": "",
+	"fileVer" : "0.0.0.1",
+	"productVer":"0.0.0.1-apha",
+	"copyright":"Copyright(C) 2024-2025 WinJS",
+    "companyName":"MarkdownNote",
+    "fileDesc":"非常好用的markdown笔记软件!",
+	"exclude":[]
+}

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "allowJs": true,
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+  },
+  "include": [
+    "./src/*",
+    "src/layout/Layout.ts",
+    "src/layout/Elem.ts"
+  ],
+  "exclude": [
+    "./node_modules"
+  ]
+}

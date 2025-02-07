@@ -1,0 +1,32 @@
+{
+  "name": "MDNote",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.min.js",
+  "scripts": {
+    "build": "rollup -c",
+    "run": "node winjs/winjs.js run",
+    "pkg": "node winjs/winjs.js pkg",
+    "build:type": "tsc -p ./tsconfig.type.json",
+    "test": "jest --no-cache"
+  },
+  "author": "chaohua",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.19",
+    "jest": "^24.9.0",
+    "rollup": "^2.0.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "ts-jest": "^24.1.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.5.30",
+    "rollup-plugin-filesize": "^9.0.0",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "rollup-plugin-terser": "^6.1.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "uglify-es": "^3.3.9"
+  }
+}
