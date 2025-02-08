@@ -4,7 +4,7 @@ const { exec } = require('child_process');
 const currentDir = process.cwd();
 function run() {
 
-    exec("winjs\\WinJS -d " + currentDir + "\\dist", (error, stdout, stderr) => {
+    exec("light_code\\LightCode.exe -d " + currentDir + "\\dist", (error, stdout, stderr) => {
         if (error) {
             console.error(error.message);
             return;
@@ -20,7 +20,7 @@ function run() {
 }
 
 function pkg() {
-    exec("winjs\\WinJS -p " + currentDir + "\\dist", (error, stdout, stderr) => {
+    exec("light_code\\LightCode.exe -p " + currentDir + "\\dist", (error, stdout, stderr) => {
         if (error) {
             console.error(error.message);
             return;

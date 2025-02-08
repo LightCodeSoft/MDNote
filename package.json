@@ -5,8 +5,8 @@
   "main": "dist/index.min.js",
   "scripts": {
     "build": "rollup -c",
-    "run": "node winjs/winjs.js run",
-    "pkg": "node winjs/winjs.js pkg",
+    "run": "node light_code/lightcode.js run",
+    "pkg": "node light_code/lightcode.js pkg",
     "build:type": "tsc -p ./tsconfig.type.json",
     "test": "jest --no-cache"
   },

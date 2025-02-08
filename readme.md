@@ -1,7 +1,7 @@
 # Markdown笔记
 ![软件界面](readme/1.png)
 
-Markdown笔记是基于WinJS([https://winjscode.github.io/](https://winjscode.github.io/))开发的一款windows平台上运行的笔记软件，您可以非常方便的使用markdown来记录笔记。
+Markdown笔记是基于LightCode([https://LightCodeSoft.github.io/](https://lightcodesoft.github.io/))开发的一款windows平台上运行的笔记软件，您可以非常方便的使用markdown来记录笔记。
 
 《Markdown笔记》软件非常小，只有2.4M，支持**公式、流程图、时序图**等。
 

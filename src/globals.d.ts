@@ -38,7 +38,7 @@ interface NativeInterface {
     exitApp();
     showTray(iconPath: string, title: string, items: Map<Integer, string>, callback: (data: any) => void): void;
     //default:defaultDirPath="", multiSelect=true, onlyFolder=false
-    openFileSelector(defaultDirPath?: string, multiSelect?: boolean, onlyFolder?: boolean);
+    openFileSelector(defaultDirPath?: string, multiSelect?: boolean, onlyFolder?: boolean): string[];
 
     showWindow(): void;
     hideWindow(): void;
